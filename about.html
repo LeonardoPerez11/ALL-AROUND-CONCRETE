@@ -5,7 +5,7 @@
     </head>
     <body>
         <style>
-            #header{
+		#header{
 position: absolute;
 top: 10%; 
 left:0;
@@ -18,11 +18,10 @@ text-overflow:ellipsis;
 overflow:hidden;
 }
             body {
-     height: 800px;
+     height: 1500px;
    width: 1300px;
-   color: #FFF;
-   background: -webkit-radial-gradient(top left, gray, white);
-   -webkit-background-size: cover;
+	background-image: URL("https://image.ibb.co/jYgCnb/240_F_119800778_vt7_GRVh7_Cq_IQ95x_Kprv_Hl_DMdy_Ikmnnu_Z.jpg");
+	background-size:cover;
 }
 .maintitle {
     position:absolute;
@@ -62,13 +61,13 @@ overflow:hidden;
 .empty {
     white-space:pre-wrap;
 }
-nav {
+.myNav {
     float:right;
-    display:block;
+    display:flex;
     padding:50px 10px;
     min-width:250px;
 }
-nav ul {
+.myNav ul {
     background:linear-gradient(90deg,
     rgb(212,175,55) 0%,
     rgb(212,175,55) 25%,
@@ -77,23 +76,50 @@ nav ul {
 box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
      inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
-nav li {
+.myNav li {
     display:inline-block;
 }
-nav ul li a {
+.myNav ul li a {
     float:right;
     padding:5px;
     color:black;
     text-decoration:none;
 }
-.description {
-    border:double black;
-    padding:5px 5px 5px 5px;
-    white-space:pre-wrap;
-    border-width:3px;
-    width:500px;
-    background:#D4AF37;
-    color:black;
+@media (max-width:320px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:240px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:375px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:384px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:414px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:480px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:568px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:600px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:667px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:736px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:768px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
+}
+@media (max-width:1024px) {
+#header, body, .maintitle, .concrete, .contact, .numbers, .empty, .myNav, .myNav ul, .myNav li, .myNav ul li a
 }
         </style>
         <h1 class="maintitle">ALL AROUND</h1>
@@ -106,16 +132,15 @@ nav ul li a {
         <h1 class="empty">
             
         </h1>
-       <nav>
+       <div class="myNav">
            <ul>
-               <li><a href="https://leonardoperez11.github.io/ALL-AROUND-CONCRETE/">HOME</a></li>
+               <li><a href="https://leonardoperez11.github.io/ALL-AROUND-CONCRETE/index.html">HOME</a></li>
                <li><a href="https://leonardoperez11.github.io/ALL-AROUND-CONCRETE/about.html">ABOUT US</a></li>
                <li><a href="https://leonardoperez11.github.io/ALL-AROUND-CONCRETE/gallery.html">GALLERY</a></li>
                <li><a href="https://leonardoperez11.github.io/ALL-AROUND-CONCRETE/contact.html">CONTACT US</a></li>
            </ul>
-       </nav>
+       </div>
        <p class="empty">
-            
            
            
            
@@ -123,28 +148,9 @@ nav ul li a {
            
            
            
-         
-           
-           
-          
            
          
        </p>
-       <center><p class="description"> We have over 20 years of experience as well as a license and insurance.
-References available if wanted.
-Give us a call for a free estimate.
-We do works including:
--Color and regular concrete 
--Basement
--Garage
--Sidewalks
--Driveways
--Color Concrete:
-Decorative stamped concrete (Residential and Commercial)
--Patios
--Retaining walls
--Block walls (Structural and Decorative)
-For more information:
-719-332-1853 or 719-213-4441 for Oscar.</p></center>
+       <center></center>
     </body>
 </html>
